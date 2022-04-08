@@ -65,7 +65,7 @@
       questions: [
         {
       prompt: "Which gender best describes you?", 
-      options: ['Male', 'Female'], 
+      options: ['Male', 'Female','Other',], 
       required: true,
       button_label: 'Continue'
         }
@@ -143,6 +143,8 @@ var simmy = {
     foil: ['img/014.png', 'img/015.png', 'img/022.png','img/028.png','img/030.png','img/033.png','img/036.png'],
     fixation_image: 'img/red dot.png',
     fixation_duration: 0,
+    target_size: [100,100],
+    circle_diameter: 500,
     trial_duration: 4000,
     timeline: [intro_dot, simmy]
    
@@ -266,6 +268,8 @@ var noise1 = {
     randomize_order: true,
     fixation_image: 'img/red dot.png',
     fixation_duration: 0,
+    target_size: [100,100],
+    circle_diameter: 500,
     timeline: [pre_trial, trial_1, trial_2, display1, if_noise1], //"trials1" represents the timeline of these 5 combined making up a whole trial 
   }
 
@@ -333,6 +337,8 @@ var noise1 = {
     randomize_order: true,
     fixation_image: 'img/red dot.png',
     fixation_duration: 0,
+    target_size: [100,100],
+    circle_diameter: 500,
     timeline: [pre_trial, trial_3, trial_4, display2, if_noise2]
   }
     var trial_5 = {
@@ -398,6 +404,8 @@ var noise1 = {
     randomize_order: true,
     fixation_image: 'img/red dot.png',
     fixation_duration: 0,
+    target_size: [100,100],
+    circle_diameter: 500,
     timeline: [pre_trial, trial_5, trial_6, display3, if_noise3],
     
   }
@@ -429,6 +437,8 @@ var noise1 = {
     randomize_order: true,
     fixation_image: 'img/red dot.png',
     fixation_duration: 0,
+    target_size: [100,100],
+    circle_diameter: 500,
     timeline: [pre_trial, trial_7, trial_8],
   }
 
@@ -460,6 +470,8 @@ var noise1 = {
     randomize_order: true,
     fixation_image: 'img/red dot.png',
     fixation_duration: 0,
+    target_size: [100,100],
+    circle_diameter: 500,
     timeline: [pre_trial, trial_9, trial_10]
   }
     var trial_11 = {
@@ -490,6 +502,8 @@ var noise1 = {
     randomize_order: true,
     fixation_image: 'img/red dot.png',
     fixation_duration: 0,
+    target_size: [100,100],
+    circle_diameter: 500,
     timeline: [pre_trial, trial_11, trial_12],
     
   }
@@ -555,6 +569,8 @@ var noise4 = {
     randomize_order: true,
     fixation_image: 'img/red dot.png',
     fixation_duration: 0,
+    target_size: [100,100],
+    circle_diameter: 500,
     timeline: [pre_trial, trial_13, trial_14, display4, if_noise4],
   }
 
@@ -621,6 +637,8 @@ var noise4 = {
     randomize_order: true,
     fixation_image: 'img/red dot.png',
     fixation_duration: 0,
+    target_size: [100,100],
+    circle_diameter: 500,
     timeline: [pre_trial, trial_15, trial_16, display5, if_noise5]
   }
     var trial_17 = {
@@ -685,6 +703,8 @@ var noise4 = {
     randomize_order: true,
     fixation_image: 'img/red dot.png',
     fixation_duration: 0,
+    target_size: [100,100],
+    circle_diameter: 500,
     timeline: [pre_trial, trial_17, trial_18, display6, if_noise6],
     
   }
@@ -716,6 +736,8 @@ var noise4 = {
     randomize_order: true,
     fixation_image: 'img/red dot.png',
     fixation_duration: 0,
+    target_size: [100,100],
+    circle_diameter: 500,
     timeline: [pre_trial, trial_19, trial_20],
   }
 
@@ -747,6 +769,8 @@ var noise4 = {
     randomize_order: true,
     fixation_image: 'img/red dot.png',
     fixation_duration: 0,
+    target_size: [100,100],
+    circle_diameter: 500,
     timeline: [pre_trial, trial_21, trial_22]
   }
     var trial_23 = {
@@ -777,6 +801,8 @@ var noise4 = {
     randomize_order: true,
     fixation_image: 'img/red dot.png',
     fixation_duration: 0,
+    target_size: [100,100],
+    circle_diameter: 500,
     timeline: [pre_trial, trial_23, trial_24],
     
   }
